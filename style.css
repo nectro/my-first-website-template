@@ -1,0 +1,244 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif, monospace;
+}
+
+/*default classes of the style*/
+.container {
+  background-color: rgb(27, 75, 235);
+  overflow: hidden;
+}
+.box_container {
+  position: static;
+  width: 94%;
+  margin-left: 8px;
+  height: 200px;
+  background-color: rgb(49, 92, 233);
+  border-radius: 4px;
+}
+.box_container_2 {
+  position: static;
+  float: left;
+  width: 90%;
+  height: 190px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: rgba(255, 255, 255, 0.842);
+}
+.box_container_2 ul {
+  margin: 10px;
+  margin-left: 20px;
+  height: 140px;
+  overflow: auto;
+}
+.box_container_2 ul li {
+  padding-top: 4px;
+}
+.box_container_2 ul li a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.842);
+}
+.box_container_2 ul li a:hover {
+  color: white;
+  transition-duration: 0.4s;
+}
+.image {
+  position: static;
+  width: 200px;
+}
+.input {
+  position: static;
+  width: 90%;
+  height: 30px;
+  margin: 7px;
+  padding: 2px;
+  font-size: 20px;
+  color: rgb(27, 75, 235);
+  background: rgba(255, 255, 255, 0.658);
+  border: 0px;
+  border-radius: 4px;
+  text-align: center;
+}
+::placeholder {
+  color: rgb(27, 75, 235);
+}
+.button {
+  position: static;
+  background-color: rgba(163, 163, 163, 0.445);
+  border-radius: 4px;
+  border: 0px;
+  width: 15%;
+  height: 30px;
+  margin: 10px;
+  padding: 2px;
+  color: rgb(255, 255, 255);
+}
+.button:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(27, 75, 235);
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+/*styles only for separate objects*/
+#header {
+  position: static;
+  height: 60px;
+  width: 100%;
+  display: block;
+}
+#logo {
+  float: left;
+  margin: 5px;
+  margin-left: 30px;
+}
+#menu-bar {
+  float: right;
+  height: 40px;
+  width: 330px;
+  margin: 10px;
+}
+#menu-bar ul li {
+  display: inline-block;
+  font-size: 18px;
+  padding: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+#menu-bar ul li a {
+  color: rgba(255, 255, 255, 0.555);
+  text-decoration: none;
+}
+#menu-bar ul li a:hover {
+  color: white;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+#main {
+  position: static;
+  min-height: calc(100vh - 60px);
+  width: 100%;
+  background-color: transparent;
+  padding: 0px;
+}
+#side-bar {
+  position: static;
+  display: block;
+  float: left;
+  width: 300px;
+  height: calc(100vh - 60px);
+}
+#details div ul {
+  margin: 10px;
+  margin-left: 20px;
+}
+#details div ul li {
+  padding-top: 4px;
+}
+#main-bar {
+  position: static;
+  display: block;
+  float: left;
+  height: calc(100vh - 60px);
+  width: calc(100% - 300px);
+  background-color: transparent;
+  overflow: auto;
+}
+#main-bar::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(163, 163, 163, 0.445);
+}
+#content-holder {
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(0, 0, 0, 0.692);
+  width: 94%;
+  min-height: 100px;
+  margin-right: 3%;
+  margin-left: 3%;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+#content-holder h1 {
+  text-decoration: underline;
+}
+#content-holder p {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.89);
+}
+#content-holder img {
+  width: 90%;
+  margin: 5px;
+}
+#footer {
+  position: static;
+  height: 150px;
+  background-color: rgb(25, 60, 175);
+}
+#icon-holder {
+  background-color: transparent;
+  margin-top: 30px;
+  height: 35px;
+}
+#icon-holder span i {
+  color: rgba(255, 255, 255, 0.616);
+  font-size: 29px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#icon-holder span i:hover {
+  color: white;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+#imp-links {
+  background-color: transparent;
+  margin-top: 3px;
+}
+#imp-links ul li {
+  display: inline-block;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+#imp-links ul li a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+}
+#imp-links ul li a:hover {
+  color: white;
+  transition-duration: 0.4s;
+}
+#imp-info-links {
+  background-color: transparent;
+  margin-top: 3px;
+}
+#imp-info-links ul li {
+  display: inline-block;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+#imp-info-links ul li a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 12px;
+}
+#imp-info-links ul li a:hover {
+  color: white;
+  transition-duration: 0.4s;
+}
+#abt-CR {
+  background-color: transparent;
+  margin-top: 10px;
+}
+#abt-CR p {
+  color: rgba(255, 255, 255, 0.363);
+  font-size: 12px;
+}
