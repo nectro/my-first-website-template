@@ -1,5 +1,8 @@
 # website-templates
-In this repository I publish all the various website templates I design. 
+this is my first web template I made a few days afte learning Html. 
 
+Its a pretty basic page where I have used extremely easy html and css codes 
 
-All the web templates over here are only demo template showing my skills as a front end developer.
+All the codes written over here can be easily understood by any beginner coder.
+
+This is just a demo page it doesn't has any backend linked with it.
